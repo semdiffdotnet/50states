@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30806D13-FECE-49A7-976E-B392C664FCF8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UnitedStates</RootNamespace>
+    <AssemblyName>UnitedStates</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Birds\AmericanRobin.cs" />
+    <Compile Include="Birds\BaltimoreOriole.cs" />
+    <Compile Include="Birds\Bluebird.cs" />
+    <Compile Include="Birds\BlueHenChicken.cs" />
+    <Compile Include="Birds\BrownThrasher.cs" />
+    <Compile Include="Birds\CactusWren.cs" />
+    <Compile Include="Birds\CaliforniaGull.cs" />
+    <Compile Include="Birds\CaliforniaValleyQuail.cs" />
+    <Compile Include="Birds\Cardinal.cs" />
+    <Compile Include="Birds\CarolinaWren.cs" />
+    <Compile Include="Birds\Chickadee.cs" />
+    <Compile Include="Birds\CommonLoon.cs" />
+    <Compile Include="Birds\EasternGoldfinch.cs" />
+    <Compile Include="Birds\HermitThrush.cs" />
+    <Compile Include="Birds\KentuckyCardinal.cs" />
+    <Compile Include="Birds\LarkBunting.cs" />
+    <Compile Include="Birds\Meadowlark.cs" />
+    <Compile Include="Birds\Mockingbird.cs" />
+    <Compile Include="Birds\MountainBluebird.cs" />
+    <Compile Include="Birds\HawaiianGoose.cs" />
+    <Compile Include="Birds\Pelican.cs" />
+    <Compile Include="Birds\PurpleFinch.cs" />
+    <Compile Include="Birds\RhodeIslandRed.cs" />
+    <Compile Include="Birds\RingNeckedPheasant.cs" />
+    <Compile Include="Birds\Roadrunner.cs" />
+    <Compile Include="Birds\Robin.cs" />
+    <Compile Include="Birds\RuffedGrouse.cs" />
+    <Compile Include="Birds\ScissorTailedFlycatcher.cs" />
+    <Compile Include="Birds\WesternMeadowlark.cs" />
+    <Compile Include="Birds\WillowGoldfinch.cs" />
+    <Compile Include="Birds\WillowPtarmigan.cs" />
+    <Compile Include="Birds\Yellowhammer.cs" />
+    <Compile Include="Cities\Albany.cs" />
+    <Compile Include="Cities\Albuquerque.cs" />
+    <Compile Include="Cities\Anchorage.cs" />
+    <Compile Include="Cities\Annapolis.cs" />
+    <Compile Include="Cities\Atlanta.cs" />
+    <Compile Include="Cities\Augusta.cs" />
+    <Compile Include="Cities\Austin.cs" />
+    <Compile Include="Cities\Baltimore.cs" />
+    <Compile Include="Cities\BatonRouge.cs" />
+    <Compile Include="Cities\Billings.cs" />
+    <Compile Include="Cities\Birmingham.cs" />
+    <Compile Include="Cities\Bismarck.cs" />
+    <Compile Include="Cities\Boise.cs" />
+    <Compile Include="Cities\Boston.cs" />
+    <Compile Include="Cities\Bridgeport.cs" />
+    <Compile Include="Cities\Burlington.cs" />
+    <Compile Include="Cities\CarsonCity.cs" />
+    <Compile Include="Cities\Charleston.cs" />
+    <Compile Include="Cities\Charlotte.cs" />
+    <Compile Include="Cities\Cheyenne.cs" />
+    <Compile Include="Cities\Chicago.cs" />
+    <Compile Include="Cities\Columbia.cs" />
+    <Compile Include="Cities\Columbus.cs" />
+    <Compile Include="Cities\Concord.cs" />
+    <Compile Include="Cities\Denver.cs" />
+    <Compile Include="Cities\DesMoines.cs" />
+    <Compile Include="Cities\Detroit.cs" />
+    <Compile Include="Cities\Dover.cs" />
+    <Compile Include="Cities\Fargo.cs" />
+    <Compile Include="Cities\Frankfort.cs" />
+    <Compile Include="Cities\Harrisburg.cs" />
+    <Compile Include="Cities\Hartford.cs" />
+    <Compile Include="Cities\Helena.cs" />
+    <Compile Include="Cities\Honolulu.cs" />
+    <Compile Include="Cities\Houston.cs" />
+    <Compile Include="Cities\Indianapolis.cs" />
+    <Compile Include="Cities\Jackson.cs" />
+    <Compile Include="Cities\Jacksonville.cs" />
+    <Compile Include="Cities\JeffersonCity.cs" />
+    <Compile Include="Cities\Juneau.cs" />
+    <Compile Include="Cities\KansasCity.cs" />
+    <Compile Include="Cities\Lansing.cs" />
+    <Compile Include="Cities\LasVegas.cs" />
+    <Compile Include="Cities\Lincoln.cs" />
+    <Compile Include="Cities\LittleRock.cs" />
+    <Compile Include="Cities\LosAngeles.cs" />
+    <Compile Include="Cities\Louisville.cs" />
+    <Compile Include="Cities\Madison.cs" />
+    <Compile Include="Cities\Manchester.cs" />
+    <Compile Include="Cities\Memphis.cs" />
+    <Compile Include="Cities\Milwaukee.cs" />
+    <Compile Include="Cities\Minneapolis.cs" />
+    <Compile Include="Cities\Montgomery.cs" />
+    <Compile Include="Cities\Montpelier.cs" />
+    <Compile Include="Cities\Nashville.cs" />
+    <Compile Include="Cities\Newark.cs" />
+    <Compile Include="Cities\NewOrleans.cs" />
+    <Compile Include="Cities\NewYork.cs" />
+    <Compile Include="Cities\OklahomaCity.cs" />
+    <Compile Include="Cities\Olympia.cs" />
+    <Compile Include="Cities\Omaha.cs" />
+    <Compile Include="Cities\Philadelphia.cs" />
+    <Compile Include="Cities\Phoenix.cs" />
+    <Compile Include="Cities\Pierre.cs" />
+    <Compile Include="Cities\Providence.cs" />
+    <Compile Include="Cities\Raleigh.cs" />
+    <Compile Include="Cities\Richmond.cs" />
+    <Compile Include="Cities\Sacramento.cs" />
+    <Compile Include="Cities\Salem.cs" />
+    <Compile Include="Cities\Portland.cs" />
+    <Compile Include="Cities\SaltLakeCity.cs" />
+    <Compile Include="Cities\SantaFe.cs" />
+    <Compile Include="Cities\Seattle.cs" />
+    <Compile Include="Cities\SiouxFalls.cs" />
+    <Compile Include="Cities\Springfield.cs" />
+    <Compile Include="Cities\StPaul.cs" />
+    <Compile Include="Cities\Tallahassee.cs" />
+    <Compile Include="Cities\Topeka.cs" />
+    <Compile Include="Cities\Trenton.cs" />
+    <Compile Include="Cities\VirginiaBeach.cs" />
+    <Compile Include="Cities\Wichita.cs" />
+    <Compile Include="Cities\Wilmington.cs" />
+    <Compile Include="Flowers\AmericanPasqueflower.cs" />
+    <Compile Include="Flowers\AppleBlossom.cs" />
+    <Compile Include="Flowers\BigRhododendron.cs" />
+    <Compile Include="Flowers\Bitterroot.cs" />
+    <Compile Include="Flowers\BlackEyedSusan.cs" />
+    <Compile Include="Flowers\Bluebonnet.cs" />
+    <Compile Include="Flowers\Camellia.cs" />
+    <Compile Include="Flowers\CherokeeRose.cs" />
+    <Compile Include="Flowers\Columbine.cs" />
+    <Compile Include="Flowers\Dogwood.cs" />
+    <Compile Include="Flowers\ForgetMeNot.cs" />
+    <Compile Include="Flowers\GoldenPoppy.cs" />
+    <Compile Include="Flowers\Goldenrod.cs" />
+    <Compile Include="Flowers\Hawthorn.cs" />
+    <Compile Include="Flowers\Hibiscus.cs" />
+    <Compile Include="Flowers\IndianPaintbrush.cs" />
+    <Compile Include="Flowers\Iris.cs" />
+    <Compile Include="Flowers\Magnolia.cs" />
+    <Compile Include="Flowers\Mayflower.cs" />
+    <Compile Include="Flowers\Mistletoe.cs" />
+    <Compile Include="Flowers\MountainLaurel.cs" />
+    <Compile Include="Flowers\NativeSunflower.cs" />
+    <Compile Include="Flowers\Nativeviolet.cs" />
+    <Compile Include="Flowers\OrangeBlossom.cs" />
+    <Compile Include="Flowers\OregonGrape.cs" />
+    <Compile Include="Flowers\PeachBlossom.cs" />
+    <Compile Include="Flowers\Peony.cs" />
+    <Compile Include="Flowers\PinkandWhiteLadysSlipper.cs" />
+    <Compile Include="Flowers\PurpleLilac.cs" />
+    <Compile Include="Flowers\PurpleViolet.cs" />
+    <Compile Include="Flowers\RedClover.cs" />
+    <Compile Include="Flowers\Rose.cs" />
+    <Compile Include="Flowers\Sagebrush.cs" />
+    <Compile Include="Flowers\SaguaroCactusBlossom.cs" />
+    <Compile Include="Flowers\ScarletCarnation.cs" />
+    <Compile Include="Flowers\SegoLily.cs" />
+    <Compile Include="Flowers\Syringa.cs" />
+    <Compile Include="Flowers\Violet.cs" />
+    <Compile Include="Flowers\WesternRhododendron.cs" />
+    <Compile Include="Flowers\WhitePineConeandTassel.cs" />
+    <Compile Include="Flowers\WildPrairieRose.cs" />
+    <Compile Include="Flowers\WildRose.cs" />
+    <Compile Include="Flowers\WoodViolet.cs" />
+    <Compile Include="Flowers\YellowJessamine.cs" />
+    <Compile Include="Flowers\YuccaFlower.cs" />
+    <Compile Include="IBird.cs" />
+    <Compile Include="ICity.cs" />
+    <Compile Include="IFlower.cs" />
+    <Compile Include="IState.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States\Alabama.cs" />
+    <Compile Include="States\Alaska.cs" />
+    <Compile Include="States\Arizona.cs" />
+    <Compile Include="States\Arkansas.cs" />
+    <Compile Include="States\California.cs" />
+    <Compile Include="States\Colorado.cs" />
+    <Compile Include="States\Connecticut.cs" />
+    <Compile Include="States\Delaware.cs" />
+    <Compile Include="States\Florida.cs" />
+    <Compile Include="States\Georgia.cs" />
+    <Compile Include="States\Hawaii.cs" />
+    <Compile Include="States\Idaho.cs" />
+    <Compile Include="States\Illinois.cs" />
+    <Compile Include="States\Indiana.cs" />
+    <Compile Include="States\Iowa.cs" />
+    <Compile Include="States\Kansas.cs" />
+    <Compile Include="States\Kentucky.cs" />
+    <Compile Include="States\Louisiana.cs" />
+    <Compile Include="States\Maine.cs" />
+    <Compile Include="States\Maryland.cs" />
+    <Compile Include="States\Massachusetts.cs" />
+    <Compile Include="States\Michigan.cs" />
+    <Compile Include="States\Minnesota.cs" />
+    <Compile Include="States\Mississippi.cs" />
+    <Compile Include="States\Missouri.cs" />
+    <Compile Include="States\Montana.cs" />
+    <Compile Include="States\Nebraska.cs" />
+    <Compile Include="States\Nevada.cs" />
+    <Compile Include="States\NewHampshire.cs" />
+    <Compile Include="States\NewJersey.cs" />
+    <Compile Include="States\NewMexico.cs" />
+    <Compile Include="States\NewYork.cs" />
+    <Compile Include="States\NorthCarolina.cs" />
+    <Compile Include="States\NorthDakota.cs" />
+    <Compile Include="States\Ohio.cs" />
+    <Compile Include="States\Oklahoma.cs" />
+    <Compile Include="States\Oregon.cs" />
+    <Compile Include="States\Pennsylvania.cs" />
+    <Compile Include="States\RhodeIsland.cs" />
+    <Compile Include="States\SouthCarolina.cs" />
+    <Compile Include="States\SouthDakota.cs" />
+    <Compile Include="States\Tennessee.cs" />
+    <Compile Include="States\Texas.cs" />
+    <Compile Include="States\Utah.cs" />
+    <Compile Include="States\Vermont.cs" />
+    <Compile Include="States\Virginia.cs" />
+    <Compile Include="States\Washington.cs" />
+    <Compile Include="States\WestVirginia.cs" />
+    <Compile Include="States\Wisconsin.cs" />
+    <Compile Include="States\Wyoming.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
