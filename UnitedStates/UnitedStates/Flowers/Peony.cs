@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Peony Instance { get; } = new Peony();
         public string Name => "Peony";
+        public string BinomialNomenclature => "Paeonia";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static YuccaFlower Instance { get; } = new YuccaFlower();
         public string Name => "Yucca Flower";
+        public string BinomialNomenclature => "Yucca";
     }
 }

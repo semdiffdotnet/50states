@@ -14,6 +14,6 @@ namespace UnitedStates.States
         public ICity Capital => DesMoines.Instance;
         public ICity LargestCity => DesMoines.Instance;
         public IBird Bird => EasternGoldfinch.Instance;
-        public IFlower Flower => WildRose.Instance;
+        public IFlower Flower => WildPrairieRose.Instance;
     }
 }

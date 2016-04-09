@@ -14,6 +14,6 @@ namespace UnitedStates.States
         public ICity Capital => Trenton.Instance;
         public ICity LargestCity => Newark.Instance;
         public IBird Bird => EasternGoldfinch.Instance;
-        public IFlower Flower => PurpleViolet.Instance;
+        public IFlower Flower => Violet.Instance;
     }
 }

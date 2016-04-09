@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Camellia Instance { get; } = new Camellia();
         public string Name => "Camellia";
+        public string BinomialNomenclature => "Camellia japonica";
     }
 }

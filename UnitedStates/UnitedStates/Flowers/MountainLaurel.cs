@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static MountainLaurel Instance { get; } = new MountainLaurel();
         public string Name => "Mountain Laurel";
+        public string BinomialNomenclature => "Kalmia latifolia";
     }
 }

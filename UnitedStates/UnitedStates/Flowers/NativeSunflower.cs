@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static NativeSunflower Instance { get; } = new NativeSunflower();
         public string Name => "Native Sunflower";
+        public string BinomialNomenclature => "Helianthus annuus";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Magnolia Instance { get; } = new Magnolia();
         public string Name => "Magnolia";
+        public string BinomialNomenclature => "Magnolia";
     }
 }

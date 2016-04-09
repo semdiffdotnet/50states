@@ -14,6 +14,6 @@ namespace UnitedStates.States
         public ICity Capital => Augusta.Instance;
         public ICity LargestCity => Portland.Instance;
         public IBird Bird => Chickadee.Instance;
-        public IFlower Flower => WhitePineConeandTassel.Instance;
+        public IFlower Flower => WhitePineConeAndTassel.Instance;
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static BlackEyedSusan Instance { get; } = new BlackEyedSusan();
         public string Name => "Black-Eyed Susan";
+        public string BinomialNomenclature => "Rudbeckia hirta";
     }
 }

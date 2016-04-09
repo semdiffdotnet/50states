@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static WoodViolet Instance { get; } = new WoodViolet();
         public string Name => "Wood Violet";
+        public string BinomialNomenclature => "Viola papilionacea";
     }
 }

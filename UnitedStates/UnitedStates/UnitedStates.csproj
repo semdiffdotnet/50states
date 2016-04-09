@@ -177,14 +177,12 @@
     <Compile Include="Flowers\Mistletoe.cs" />
     <Compile Include="Flowers\MountainLaurel.cs" />
     <Compile Include="Flowers\NativeSunflower.cs" />
-    <Compile Include="Flowers\Nativeviolet.cs" />
     <Compile Include="Flowers\OrangeBlossom.cs" />
     <Compile Include="Flowers\OregonGrape.cs" />
     <Compile Include="Flowers\PeachBlossom.cs" />
     <Compile Include="Flowers\Peony.cs" />
-    <Compile Include="Flowers\PinkandWhiteLadysSlipper.cs" />
+    <Compile Include="Flowers\PinkAndWhiteLadysSlipper.cs" />
     <Compile Include="Flowers\PurpleLilac.cs" />
-    <Compile Include="Flowers\PurpleViolet.cs" />
     <Compile Include="Flowers\RedClover.cs" />
     <Compile Include="Flowers\Rose.cs" />
     <Compile Include="Flowers\Sagebrush.cs" />
@@ -194,9 +192,8 @@
     <Compile Include="Flowers\Syringa.cs" />
     <Compile Include="Flowers\Violet.cs" />
     <Compile Include="Flowers\WesternRhododendron.cs" />
-    <Compile Include="Flowers\WhitePineConeandTassel.cs" />
+    <Compile Include="Flowers\WhitePineConeAndTassel.cs" />
     <Compile Include="Flowers\WildPrairieRose.cs" />
-    <Compile Include="Flowers\WildRose.cs" />
     <Compile Include="Flowers\WoodViolet.cs" />
     <Compile Include="Flowers\YellowJessamine.cs" />
     <Compile Include="Flowers\YuccaFlower.cs" />

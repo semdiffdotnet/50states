@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Goldenrod Instance { get; } = new Goldenrod();
         public string Name => "Goldenrod";
+        public string BinomialNomenclature => "Solidago gigantea";
     }
 }

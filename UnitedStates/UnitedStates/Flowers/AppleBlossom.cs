@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static AppleBlossom Instance { get; } = new AppleBlossom();
         public string Name => "Apple Blossom";
+        public string BinomialNomenclature => "Malus";
     }
 }

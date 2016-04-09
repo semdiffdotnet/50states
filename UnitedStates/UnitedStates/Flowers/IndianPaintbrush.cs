@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static IndianPaintbrush Instance { get; } = new IndianPaintbrush();
         public string Name => "Indian Paintbrush";
+        public string BinomialNomenclature => "Castilleja linariifolia";
     }
 }

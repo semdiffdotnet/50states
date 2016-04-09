@@ -14,6 +14,6 @@ namespace UnitedStates.States
         public ICity Capital => Springfield.Instance;
         public ICity LargestCity => Chicago.Instance;
         public IBird Bird => Cardinal.Instance;
-        public IFlower Flower => Nativeviolet.Instance;
+        public IFlower Flower => Violet.Instance;
     }
 }

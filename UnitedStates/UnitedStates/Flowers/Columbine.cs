@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Columbine Instance { get; } = new Columbine();
         public string Name => "Columbine";
+        public string BinomialNomenclature => "Aquilegia caerulea";
     }
 }

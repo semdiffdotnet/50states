@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static ScarletCarnation Instance { get; } = new ScarletCarnation();
         public string Name => "Scarlet Carnation";
+        public string BinomialNomenclature => "Dianthus caryophyllus";
     }
 }

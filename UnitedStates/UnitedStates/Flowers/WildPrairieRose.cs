@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static WildPrairieRose Instance { get; } = new WildPrairieRose();
         public string Name => "Wild Prairie Rose";
+        public string BinomialNomenclature => "Rosa arkansana";
     }
 }

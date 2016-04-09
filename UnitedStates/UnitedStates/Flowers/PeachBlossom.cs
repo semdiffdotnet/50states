@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static PeachBlossom Instance { get; } = new PeachBlossom();
         public string Name => "Peach Blossom";
+        public string BinomialNomenclature => "Prunus persica";
     }
 }

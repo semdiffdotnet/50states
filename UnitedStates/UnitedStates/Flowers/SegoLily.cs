@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static SegoLily Instance { get; } = new SegoLily();
         public string Name => "Sego Lily";
+        public string BinomialNomenclature => "Calochortus nuttallii";
     }
 }

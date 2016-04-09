@@ -14,6 +14,6 @@ namespace UnitedStates.States
         public ICity Capital => StPaul.Instance;
         public ICity LargestCity => Minneapolis.Instance;
         public IBird Bird => CommonLoon.Instance;
-        public IFlower Flower => PinkandWhiteLadysSlipper.Instance;
+        public IFlower Flower => PinkAndWhiteLadysSlipper.Instance;
     }
 }

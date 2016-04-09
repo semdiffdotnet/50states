@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static BigRhododendron Instance { get; } = new BigRhododendron();
         public string Name => "Big Rhododendron";
+        public string BinomialNomenclature => "Rhododendron maximum";
     }
 }

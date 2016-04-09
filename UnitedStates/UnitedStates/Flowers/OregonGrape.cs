@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static OregonGrape Instance { get; } = new OregonGrape();
         public string Name => "Oregon Grape";
+        public string BinomialNomenclature => "Berberis aquifolium";
     }
 }

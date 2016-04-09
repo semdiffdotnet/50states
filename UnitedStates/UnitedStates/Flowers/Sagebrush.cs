@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Sagebrush Instance { get; } = new Sagebrush();
         public string Name => "Sagebrush";
+        public string BinomialNomenclature => "Artemisia tridentata";
     }
 }
