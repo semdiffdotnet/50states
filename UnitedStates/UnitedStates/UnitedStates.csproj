@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Birds\AmericanRobin.cs" />
+    <Compile Include="Birds\BaldEagle.cs" />
     <Compile Include="Birds\BaltimoreOriole.cs" />
     <Compile Include="Birds\Bluebird.cs" />
     <Compile Include="Birds\BlueHenChicken.cs" />
@@ -152,6 +153,7 @@
     <Compile Include="Cities\Topeka.cs" />
     <Compile Include="Cities\Trenton.cs" />
     <Compile Include="Cities\VirginiaBeach.cs" />
+    <Compile Include="Cities\WashingtonDc.cs" />
     <Compile Include="Cities\Wichita.cs" />
     <Compile Include="Cities\Wilmington.cs" />
     <Compile Include="Flowers\AmericanPasqueflower.cs" />
@@ -254,6 +256,7 @@
     <Compile Include="States\WestVirginia.cs" />
     <Compile Include="States\Wisconsin.cs" />
     <Compile Include="States\Wyoming.cs" />
+    <Compile Include="UnitedStates.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
