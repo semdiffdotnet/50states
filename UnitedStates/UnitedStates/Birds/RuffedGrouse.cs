@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static RuffedGrouse Instance { get; } = new RuffedGrouse();
         public string Name => "Ruffed Grouse";
+        public string BinomialNomenclature => "Bonasa umbellus";
     }
 }

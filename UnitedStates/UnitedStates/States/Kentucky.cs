@@ -13,7 +13,7 @@ namespace UnitedStates.States
         public string Name => "Kentucky";
         public ICity Capital => Frankfort.Instance;
         public ICity LargestCity => Louisville.Instance;
-        public IBird Bird => KentuckyCardinal.Instance;
+        public IBird Bird => Cardinal.Instance;
         public IFlower Flower => Goldenrod.Instance;
     }
 }

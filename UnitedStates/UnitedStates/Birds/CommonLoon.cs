@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static CommonLoon Instance { get; } = new CommonLoon();
         public string Name => "Common Loon";
+        public string BinomialNomenclature => "Gavia immer";
     }
 }

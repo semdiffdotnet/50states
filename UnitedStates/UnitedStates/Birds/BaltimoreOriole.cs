@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static BaltimoreOriole Instance { get; } = new BaltimoreOriole();
         public string Name => "Baltimore Oriole";
+        public string BinomialNomenclature => "Icterus galbula";
     }
 }

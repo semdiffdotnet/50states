@@ -1,4 +1,4 @@
-namespace UnitedStates.Birds
+﻿namespace UnitedStates.Birds
 {
     public class HawaiianGoose : IBird
     {
@@ -6,6 +6,7 @@ namespace UnitedStates.Birds
         { }
 
         public static HawaiianGoose Instance { get; } = new HawaiianGoose();
-        public string Name => "Nene (Hawaiian Goose)";
+        public string Name => "Nēnē (Hawaiian Goose)";
+        public string BinomialNomenclature => "Branta sandvicensis";
     }
 }

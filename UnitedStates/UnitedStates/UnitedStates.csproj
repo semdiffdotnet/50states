@@ -55,7 +55,6 @@
     <Compile Include="Birds\CommonLoon.cs" />
     <Compile Include="Birds\EasternGoldfinch.cs" />
     <Compile Include="Birds\HermitThrush.cs" />
-    <Compile Include="Birds\KentuckyCardinal.cs" />
     <Compile Include="Birds\LarkBunting.cs" />
     <Compile Include="Birds\Meadowlark.cs" />
     <Compile Include="Birds\Mockingbird.cs" />

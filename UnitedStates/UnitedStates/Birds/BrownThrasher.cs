@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static BrownThrasher Instance { get; } = new BrownThrasher();
         public string Name => "Brown Thrasher";
+        public string BinomialNomenclature => "Toxostoma rufum";
     }
 }

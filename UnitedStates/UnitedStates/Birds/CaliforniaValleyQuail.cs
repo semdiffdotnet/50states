@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static CaliforniaValleyQuail Instance { get; } = new CaliforniaValleyQuail();
         public string Name => "California Valley Quail";
+        public string BinomialNomenclature => "Callipepla californica";
     }
 }

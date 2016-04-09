@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static WillowPtarmigan Instance { get; } = new WillowPtarmigan();
         public string Name => "Willow Ptarmigan";
+        public string BinomialNomenclature => "Lagopus lagopus";
     }
 }

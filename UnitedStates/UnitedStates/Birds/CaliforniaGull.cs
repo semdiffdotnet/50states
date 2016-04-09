@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static CaliforniaGull Instance { get; } = new CaliforniaGull();
         public string Name => "California Gull";
+        public string BinomialNomenclature => "Larus californicus";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static AmericanRobin Instance { get; } = new AmericanRobin();
         public string Name => "American Robin";
+        public string BinomialNomenclature => "Turdus migratorius";
     }
 }

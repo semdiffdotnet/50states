@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static Chickadee Instance { get; } = new Chickadee();
         public string Name => "Chickadee";
+        public string BinomialNomenclature => "Poecile atricapilla";
     }
 }

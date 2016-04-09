@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static ScissorTailedFlycatcher Instance { get; } = new ScissorTailedFlycatcher();
         public string Name => "Scissor-Tailed Flycatcher";
+        public string BinomialNomenclature => "Tyrannus forficatus";
     }
 }

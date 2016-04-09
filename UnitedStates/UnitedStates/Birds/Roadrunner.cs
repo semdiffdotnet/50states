@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static Roadrunner Instance { get; } = new Roadrunner();
         public string Name => "Roadrunner";
+        public string BinomialNomenclature => "Geococcyx californianus";
     }
 }

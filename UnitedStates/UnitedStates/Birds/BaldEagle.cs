@@ -7,5 +7,6 @@
 
         public static BaldEagle Instance { get; } = new BaldEagle();
         public string Name => "Bald eagle";
+        public string BinomialNomenclature => "Haliaeetus leucocephalus";
     }
 }

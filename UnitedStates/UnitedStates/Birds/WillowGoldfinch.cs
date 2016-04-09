@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static WillowGoldfinch Instance { get; } = new WillowGoldfinch();
         public string Name => "Willow Goldfinch";
+        public string BinomialNomenclature => "Spinus tristis";
     }
 }
