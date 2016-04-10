@@ -1,11 +1,12 @@
 namespace UnitedStates.Flowers
 {
-    public class WhitePineConeandTassel : IFlower
+    public class WhitePineConeAndTassel : IFlower
     {
-        private WhitePineConeandTassel()
+        private WhitePineConeAndTassel()
         { }
 
-        public static WhitePineConeandTassel Instance { get; } = new WhitePineConeandTassel();
+        public static WhitePineConeAndTassel Instance { get; } = new WhitePineConeAndTassel();
         public string Name => "White Pine Cone and Tassel";
+        public string BinomialNomenclature => "Pinus strobus";
     }
 }

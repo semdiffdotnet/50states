@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static Meadowlark Instance { get; } = new Meadowlark();
         public string Name => "Meadowlark";
+        public string BinomialNomenclature => "Sturnella neglecta";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static LarkBunting Instance { get; } = new LarkBunting();
         public string Name => "Lark Bunting";
+        public string BinomialNomenclature => "Calamospiza melanocorys";
     }
 }

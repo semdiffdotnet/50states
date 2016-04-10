@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static RingNeckedPheasant Instance { get; } = new RingNeckedPheasant();
         public string Name => "Ring-Necked Pheasant";
+        public string BinomialNomenclature => "Phasianus colchicus";
     }
 }

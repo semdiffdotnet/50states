@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Bluebonnet Instance { get; } = new Bluebonnet();
         public string Name => "Bluebonnet";
+        public string BinomialNomenclature => "Lupinus sp.";
     }
 }

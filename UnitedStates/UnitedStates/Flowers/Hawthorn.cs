@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Hawthorn Instance { get; } = new Hawthorn();
         public string Name => "Hawthorn";
+        public string BinomialNomenclature => "Crataegus";
     }
 }

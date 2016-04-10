@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static BlueHenChicken Instance { get; } = new BlueHenChicken();
         public string Name => "Blue Hen Chicken";
+        public string BinomialNomenclature => "Gallus gallus";
     }
 }

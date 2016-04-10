@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Bitterroot Instance { get; } = new Bitterroot();
         public string Name => "Bitterroot";
+        public string BinomialNomenclature => "Lewisia rediviva";
     }
 }

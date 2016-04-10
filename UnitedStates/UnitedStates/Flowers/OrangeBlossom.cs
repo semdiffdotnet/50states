@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static OrangeBlossom Instance { get; } = new OrangeBlossom();
         public string Name => "Orange Blossom";
+        public string BinomialNomenclature => "Citrus sinensis";
     }
 }

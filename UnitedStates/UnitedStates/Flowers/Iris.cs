@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Iris Instance { get; } = new Iris();
         public string Name => "Iris";
+        public string BinomialNomenclature => "Iris";
     }
 }

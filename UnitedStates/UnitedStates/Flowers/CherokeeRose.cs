@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static CherokeeRose Instance { get; } = new CherokeeRose();
         public string Name => "Cherokee Rose";
+        public string BinomialNomenclature => "Rosa laevigata";
     }
 }

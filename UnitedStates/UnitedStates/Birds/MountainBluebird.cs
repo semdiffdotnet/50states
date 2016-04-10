@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static MountainBluebird Instance { get; } = new MountainBluebird();
         public string Name => "Mountain Bluebird";
+        public string BinomialNomenclature => "Sialia currucoides";
     }
 }

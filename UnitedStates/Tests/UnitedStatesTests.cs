@@ -18,5 +18,19 @@ namespace Tests
             var normalstates = UnitedStates.UnitedStates.Instance.States.Where(s => s.Capital == s.LargestCity).ToList();
             Assert.AreEqual(17, normalstates.Count);
         }
+
+        [TestMethod]
+        public void VerifyAllHaveNomenclature()
+        {
+            foreach (var bird in UnitedStates.UnitedStates.Instance.States.Select(s => s.Bird))
+            {
+                Assert.IsFalse(string.IsNullOrWhiteSpace(bird.BinomialNomenclature));
+            }
+
+            foreach (var flower in UnitedStates.UnitedStates.Instance.States.Select(s => s.Flower))
+            {
+                Assert.IsFalse(string.IsNullOrWhiteSpace(flower.BinomialNomenclature));
+            }
+        }
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static Cardinal Instance { get; } = new Cardinal();
         public string Name => "Cardinal";
+        public string BinomialNomenclature => "Cardinalis cardinalis";
     }
 }

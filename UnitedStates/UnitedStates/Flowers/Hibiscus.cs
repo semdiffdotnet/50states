@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Hibiscus Instance { get; } = new Hibiscus();
         public string Name => "Hibiscus";
+        public string BinomialNomenclature => "Hibiscus brackenridgei";
     }
 }

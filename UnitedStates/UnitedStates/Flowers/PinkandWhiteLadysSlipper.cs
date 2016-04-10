@@ -1,11 +1,12 @@
 namespace UnitedStates.Flowers
 {
-    public class PinkandWhiteLadysSlipper : IFlower
+    public class PinkAndWhiteLadysSlipper : IFlower
     {
-        private PinkandWhiteLadysSlipper()
+        private PinkAndWhiteLadysSlipper()
         { }
 
-        public static PinkandWhiteLadysSlipper Instance { get; } = new PinkandWhiteLadysSlipper();
+        public static PinkAndWhiteLadysSlipper Instance { get; } = new PinkAndWhiteLadysSlipper();
         public string Name => "Pink and White Lady's Slipper";
+        public string BinomialNomenclature => "Cypripedium reginae";
     }
 }

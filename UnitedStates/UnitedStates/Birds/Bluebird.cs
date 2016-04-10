@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static Bluebird Instance { get; } = new Bluebird();
         public string Name => "Bluebird";
+        public string BinomialNomenclature => "Sialia sialis";
     }
 }

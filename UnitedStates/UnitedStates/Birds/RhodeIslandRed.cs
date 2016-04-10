@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static RhodeIslandRed Instance { get; } = new RhodeIslandRed();
         public string Name => "Rhode Island Red";
+        public string BinomialNomenclature => "Gallus gallus";
     }
 }

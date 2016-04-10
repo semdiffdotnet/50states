@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static PurpleFinch Instance { get; } = new PurpleFinch();
         public string Name => "Purple Finch";
+        public string BinomialNomenclature => "Carpodacus purpureus";
     }
 }

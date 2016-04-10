@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Syringa Instance { get; } = new Syringa();
         public string Name => "Syringa";
+        public string BinomialNomenclature => "Philadelphus lewisii";
     }
 }

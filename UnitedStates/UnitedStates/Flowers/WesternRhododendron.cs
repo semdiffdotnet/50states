@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static WesternRhododendron Instance { get; } = new WesternRhododendron();
         public string Name => "Western Rhododendron";
+        public string BinomialNomenclature => "Rhododendron macrophyllum";
     }
 }

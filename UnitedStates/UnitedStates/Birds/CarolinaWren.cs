@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static CarolinaWren Instance { get; } = new CarolinaWren();
         public string Name => "Carolina Wren";
+        public string BinomialNomenclature => "Thryothorus ludovicianus";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static GoldenPoppy Instance { get; } = new GoldenPoppy();
         public string Name => "Golden Poppy";
+        public string BinomialNomenclature => "Eschscholzia californica";
     }
 }

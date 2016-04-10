@@ -1,3 +1,5 @@
+using System;
+
 namespace UnitedStates.Birds
 {
     public class Yellowhammer : IBird
@@ -7,5 +9,6 @@ namespace UnitedStates.Birds
 
         public static Yellowhammer Instance { get; } = new Yellowhammer();
         public string Name => "Yellowhammer";
+        public string BinomialNomenclature => "Colaptes auratus";
     }
 }

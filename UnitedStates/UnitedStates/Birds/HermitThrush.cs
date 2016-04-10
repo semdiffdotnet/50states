@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static HermitThrush Instance { get; } = new HermitThrush();
         public string Name => "Hermit Thrush";
+        public string BinomialNomenclature => "Catharus guttatus";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Flowers
 
         public static Rose Instance { get; } = new Rose();
         public string Name => "Rose";
+        public string BinomialNomenclature => "Rosa";
     }
 }

@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static EasternGoldfinch Instance { get; } = new EasternGoldfinch();
         public string Name => "Eastern Goldfinch";
+        public string BinomialNomenclature => "Spinus tristis";
     }
 }

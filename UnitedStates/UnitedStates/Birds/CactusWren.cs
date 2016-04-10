@@ -7,5 +7,6 @@ namespace UnitedStates.Birds
 
         public static CactusWren Instance { get; } = new CactusWren();
         public string Name => "Cactus Wren";
+        public string BinomialNomenclature => "Campylorhynchus brunneicapillus";
     }
 }
